@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" type="png" href="panidotcom-logo.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Builder</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="application.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center">Resume Builder</h1>
+        <form id="resume-form">
+            <div class="form-group">
+                <label for="name">Your Name:</label>
+                <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+            </div>
+            <div class="form-group">
+                <label for="jobTitle">Job Title:</label>
+                <input type="text" class="form-control" id="jobTitle" placeholder="e.g., Chief Bubble Wrap Inspector" required>
+            </div>
+            <div class="form-group">
+                <label for="imageUpload">Upload Your Image:</label>
+                <input type="file" class="form-control" id="imageUpload" accept="image/*">
+            </div>
+            <div class="form-group">
+                <label for="experience">Experience:</label>
+                <textarea class="form-control" id="experience" rows="3" placeholder="Absurd experiences..." required></textarea>
+            </div>
+            <div class="form-group">
+                <label for="skills">Skills:</label>
+                <textarea class="form-control" id="skills" rows="3" placeholder="Imagination skills..." required></textarea>
+            </div>
+            <div class="form-group">
+                <label for="references">References:</label>
+                <textarea class="form-control" id="references" rows="3" placeholder="Who would vouch for you?..." required></textarea>
+            </div>
+            <div class="d-flex justify-content-between">
+                <button type="submit" class="btn btn-primary">Generate Resume</button>
+                <button type="button" id="clear-btn" class="btn btn-secondary">Clear All</button>
+            </div>
+        </form>
+        <div id="resume-output" class="output mt-4 hidden"></div>
+        <button id="download-btn" class="btn btn-success btn-block mt-3 hidden">Download Resume</button>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="application.js"></script>
+</body>
+</html>

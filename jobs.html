@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="shortcut icon" type="png" href="panidotcom-logo.png">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Comaptible" content="IE=edge">
+	<title>പണി DOT കോ൦</title>
+	<meta name="desciption" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  
+	<script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+
+	<script type="text/javascript" src="script.js"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+	<script>
+		$(window).on('scroll', function(){
+  			if($(window).scrollTop()){
+  			  $('nav').addClass('black');
+ 			 }else {
+ 		   $('nav').removeClass('black');
+ 		 }
+		})
+		function goToApplicationPage() {
+        	window.location.href = 'application.html';
+		}
+	</script>
+</head>
+<body>
+<!-- Navigation Bar -->
+	<div id="header">
+		<nav class="nav">
+			<div class="logo"><img src="panidotcom-logo.png" alt="logo"></div>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="index.html#about-section">About</a></li>
+				<li><a class="active" href="">Jobs</a></li>
+				<li><a href="index.html#review-section">Reviews</a></li>
+				<li><a href="application.html">Build Resume</a></li>
+			</ul>
+			<div class="srch"><input type="text" class="search" placeholder="Search here..."><img src="images/icon/search.png" alt="search" onclick=slide()></div>
+			<img src="images/icon/menu.png" class="menu" onclick="sideMenu(0)" alt="menu">
+		</nav>
+	</div>
+
+
+
+    <!-- jobs -->
+    <div class="diffSection" id="team_section">
+		<center><p style="font-size: 50px; padding-top: 100px; padding-bottom: 0px;">Explore Jobs</p></center>
+		<div class="totalcard">
+			<div class="card">
+				<center><img src="images/unicorn.jpg"></center>
+				<center><div class="card-title">Official Unicorn Wrangler</div>
+				<div id="detail">
+                    <p>Manage and care for our magical unicorns! Your duties include grooming their sparkles, training them to prance gracefully, and organizing magical adventures in enchanted forests.
+                    </p><br>
+                    <p><strong>Qualifications:</strong><br>- Must have a deep understanding of mythical creatures.</p><br> <p> - Experience with rainbow management is a plus.</p><br>
+                    <p><strong>Years of Experience:</strong><br>- 3 years of fantasy creature care..</p><br>
+                    <p><strong>Skills:</strong> - Strong ability to speak “unicorn” (you know, magical whispers).</p><br><p> - Excellent negotiation skills for rainbow negotiations.</p>
+					<div class="duty"></div>
+					<a href="" target="_blank"><button class="btn-card" onclick="goToApplicationPage()">APPLY</button></a>
+				</div>
+				</center>
+			</div><div class="card">
+				<center><img src="images/ice cream.jpg"></center>
+				<center><div class="card-title"> Senior Ice Cream Taster</div>
+				<div id="detail">
+                    <p>Taste every flavor imaginable and judge them on creaminess, deliciousness, and overall joy factor. You’ll be the ultimate authority on ice cream, sharing your expert opinions with the world!</p><br>
+                    <p><strong>Qualifications:</strong><br> - Must have a sweet tooth and an adventurous palate.</p><br> <p> - Certification in Dessert Diplomacy preferred.</p><br>
+                    <p><strong>Years of Experience:</strong><br> - Minimum of 2 years of professional ice cream tasting.</p><br>
+                    <p><strong>Skills:</strong>- Ability to distinguish between flavors with just one lick.</p><br><p> - Strong enthusiasm for sprinkles.</p>
+					<a href="" target="_blank"><button class="btn-card" onclick="goToApplicationPage()">APPLY</button></a>
+				</div>
+				</center>
+			</div><div class="card">
+				<center><img src="images/bubble.jpg"></center>
+				<center><div class="card-title">Chief Bubble Wrap Inspector</div>
+				<div id="detail">
+                    <p>Test bubble wrap for quality assurance by popping your way to happiness! Ensure that every bubble meets the strictest popping standards and organize the most satisfying popping parties.</p><br>
+                    <p><strong>Qualifications:</strong><br> - A keen ear for the perfect pop.</p><br> <p>- Must love the sound of bubbles bursting</p><br>
+                    <p><strong>Years of Experience:</strong><br> - 1 year of bubble-related experience (popping experience counts!</p><br>
+                    <p><strong>Skills:</strong> - Exceptional attention to detail in bubble sizes.</p><br><p> - Strong communication skills to discuss popping techniques.</p>
+					<a href="" target="_blank"><button class="btn-card" onclick="goToApplicationPage()">APPLY</button></a>
+				</div>
+				</center>
+			</div>
+			<div class="card">
+				<center><img src="images/cloud.jpg"></center>
+				<center><div class="card-title">Professional Cloud Observer</div>
+				<div id="detail">
+			
+    <p>Spend your days gazing at the sky and identifying clouds. Is that a fluffy cumulus or a menacing nimbus? You’ll write whimsical reports on cloud shapes, host “Cloudy Fridays,” and maybe even invent new cloud names!</p><br>
+    <p><strong>Qualifications:</strong><br> - Must possess a PhD in Cloudology or extensive cloud-watching experience.</p><br> <p> - Must be able to lay on the grass for hours without getting sunburned.</p><br>
+    <p><strong>Years of Experience:</strong><br> - Minimum of 1 year of cloud-watching under a certified professional.</p><br>
+    <p><strong>Skills:</strong> - Exceptional imagination to create stories from cloud shapes.</p><br><p> - Strong neck muscles for prolonged gazing.</p>
+					<div class="duty"></div>
+					<a href="" target="_blank"><button class="btn-card" onclick="goToApplicationPage()">APPLY</button></a>
+				</div>
+				</center>
+			</div>
+			<div class="card">
+				<center><img src="images/potato.jpg"></center>
+				<center><div class="card-title">Senior Potato Cuddler</div>
+				<div id="detail">
+                    <p>Embrace your love for potatoes as you cuddle with the finest spuds. You’ll ensure they feel loved and appreciated, conducting daily potato snuggles and creating a cozy atmosphere in our Potato Palace.</p><br>
+                    <p><strong>Qualifications:</strong><br> - Must have a soft spot for tubers.</p><br> <p> - Certification in Advanced Cuddling Techniques preferred.</p><br>
+                    <p><strong>Years of Experience:</strong><br> - 2 years of potato-related companionship.</p><br>
+                    <p><strong>Skills:</strong> - Ability to identify the perfect cuddle potato: Yukon Gold or Russet?</p><br><p> - Strong emotional support skills for underappreciated vegetables.</p>
+					<div class="duty"></div>
+					<a href="" target="_blank"><button class="btn-card" onclick="goToApplicationPage()">APPLY</button></a>
+				</div>
+				</center>
+			</div>
+			<div class="card">
+				<center><img src="images/napper.jpg"></center>
+				<center><div class="card-title">Professional Napper</div>
+				<div id="detail">
+                    <p>Your main responsibility? Napping on the job! You’ll conduct rigorous nap research, perfecting techniques for the ultimate snooze. Dream big, literally!</p><br>
+                    <p><strong>Qualifications:</strong><br> - Proven record of napping excellence.</p><br> <p> - Must have a collection of the coziest blankets.</p><br>
+                    <p><strong>Years of Experience:</strong><br>- At least 3 years of napping in various environments.</p><br>
+                    <p><strong>Skills:</strong>- Expertise in various nap styles: power naps, cat naps, and marathon snoozes.</p>
+					<a href="" target="_blank"><button class="btn-card" onclick="goToApplicationPage()">APPLY</button></a>
+				</div>
+				</center>
+			</div>
+            <div class="card">
+				<center><img src="images/ghost.jpg"></center>
+				<center><div class="card-title">Ghostwriter for Ghosts</div>
+				<div id="detail">
+                    <p> Help ghosts tell their stories! You’ll write memoirs and tales from the afterlife, giving voice to the spectral. Must be prepared for spooky brainstorming sessions!</p><br>
+                    <p><strong>Qualifications:</strong><br>- Must have experience in creative writing.</p><br> <p> - Ability to connect with the ethereal.</p><br>
+                    <p><strong>Years of Experience:</strong><br>- 1 year of ghostwriting experience (actual ghosts are a bonus).</p><br>
+                    <p><strong>Skills:</strong> - Strong storytelling abilities with a flair for the dramatic.</p><br><p> - Excellent communication skills for ghostly discussions.</p>
+					<div class="duty"></div>
+					<a href="" target="_blank"><button class="btn-card" onclick="goToApplicationPage()">APPLY</button></a>
+				</div>
+				</center>
+			</div><div class="card">
+				<center><img src="images/marshmello.jpg"></center>
+				<center><div class="card-title">Chief Marshmallow Architect</div>
+				<div id="detail">
+                    <p>Design and construct the most epic marshmallow structures! You’ll create marshmallow buildings, sculptures, and tasty treats that will wow the world.</p><br>
+                    <p><strong>- Background in architecture or dessert engineering.</p><br> <p> - Must have a sweet tooth and a love for creativity.</p><br>
+                    <p><strong>Years of Experience:</strong><br> - 2 years in culinary arts or design.</p><br>
+                    <p><strong>Skills:</strong> - Strong design skills and creativity in confectionery.</p><br><p> - Ability to work with sticky materials!
+                        .</p>
+					<div class="duty"></div>
+					<a href="" target="_blank"><button class="btn-card" onclick="goToApplicationPage()">APPLY</button></a>
+				</div>
+				</center>
+			</div><div class="card">
+				<center><img src="images/bubblegum.jpg"></center>
+				<center><div class="card-title">Bubble Gum Flavor Developer</div>
+				<div id="detail">
+                    <p>Create the wildest bubble gum flavors imaginable! From “Blueberry Marshmallow Surprise” to “Sizzling Chili Chocolate,” your imagination is the limit!</p><br>
+                    <p><strong>Qualifications:</strong><br> - Background in food science or flavor development.</p><br> <p> - Must have a passion for chewing gum.</p><br>
+                    <p><strong>Years of Experience:</strong><br> - 1 year in flavor development or candy creation.</p><br>
+                    <p><strong>Skills:</strong> - Creative flavor combinations that delight and surprise.</p><br><p> - Strong sense of taste and smell.</p>
+					<div class="duty"></div>
+					<a href="" target="_blank"><button class="btn-card" onclick="goToApplicationPage()">APPLY</button></a>
+				</div>
+				</center>
+			</div>
+		</div>
+		
+	</div>
+
+</body>
+</html>

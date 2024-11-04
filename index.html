@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="shortcut icon" type="png" href="panidotcom-logo.png">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Comaptible" content="IE=edge">
+	<title>പണി DOT കോ൦</title>
+	<meta name="desciption" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  
+	<script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+
+	<script type="text/javascript" src="script.js"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+	<script>
+		$(window).on('scroll', function(){
+  			if($(window).scrollTop()){
+  			  $('nav').addClass('black');
+ 			 }else {
+ 		   $('nav').removeClass('black');
+ 		 }
+		})
+		function goToApplicationPage() {
+        	window.location.href = 'application.html';
+		}
+		function goToJobsPage() {
+        	window.location.href = 'jobs.html';
+		}
+	</script>
+</head>
+<body>
+<!-- Navigation Bar and Header -->
+	<header id="header">
+		<nav class="nav">
+			<div class="logo"><img src="panidotcom-logo.png" alt="logo"></div>
+			<ul>
+				<li><a class="active" href="">Home</a></li>
+				<li><a href="#about-section">About</a></li>
+				<li><a href="#job-section">Jobs</a></li>
+				<li><a href="#review-section">Reviews</a></li>
+				<li><a href="#contactus_section">Contact</a></li>
+			</ul>
+			<div class="srch"><input type="text" class="search" placeholder="Search here..."><img src="images/icon/search.png" alt="search" onclick=slide()></div>
+			<img src="images/icon/menu.png" class="menu" onclick="sideMenu(0)" alt="menu">
+		</nav>
+		<div class="head-container">
+			<div class="quote">
+				<p>APPLY FOR JOBS YOU NEVER KNEW EXISTED!</p>
+				<h5 id="header5">A platform for discovering and creating fictional job applications – because why not?</h5>
+				<br><br>
+				<button class="head-button" onclick="goToJobsPage()">Explore Jobs</button>
+				<button class="head-button" id="resume-button" onclick="goToApplicationPage()">Create Resume</button>
+			</div>
+			<div class="svg-image">
+				<img src="image.jpg" alt="svg">
+			</div>
+		</div>
+		<div class="side-menu" id="side-menu">
+			<div class="close" onclick="sideMenu(1)"><img src="images/icon/close.png" alt=""></div>
+			<ul>
+				<li><a href="#header">Home</a></li>
+				<li><a href="#about-section">About</a></li>
+				<li><a href="#job-section">Jobs</a></li>
+				<li><a href="#review-section">Reviews</a></li>
+				<li><a href="application.html">Build Resume</a></li>
+			</ul>
+		</div>
+	</header>
+
+
+<!-- About -->
+	<div class="diffSection" id="about-section" style="background-color: #FEFAE0;">
+		<center><p style="font-size: 50px; padding: 40px; ">Discover പണി DOT കോ൦</p></center>
+		<div class="content">
+			<p>
+				Welcome to പണി DOT കോ൦ – the one and only platform dedicated to exploring fictional job applications. Why settle for typical, real-world jobs when you can apply to become a Professional Cloud Observer or a Certified Nap Expert? This is your invitation to step into the absurd, quirky world of jobs that serve no purpose but to make you smile.
+			</p>
+		</div>
+	
+
+		<section id="features">
+
+		<div class="container-fluid">
+	
+		  <div class="row">
+			<div class="feature-box col-lg-4">
+			  <svg class="svg-inline--fa fa-heart fa-w-18 icon fa-4x" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/></svg>
+			  <h3 class="feature-title">Discover Odd Job Titles.</h3>
+			  <p>Generate or browse through a collection of delightfully impractical job titles. Ever wanted to be a Senior Bubble Wrap Popper or Master Pencil Sharpener? Now’s your chance.</p>
+			</div>
+	
+			<div class="feature-box col-lg-4">
+				<svg class="svg-inline--fa fa-heart fa-w-18 icon fa-4x" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M280 64l40 0c35.3 0 64 28.7 64 64l0 320c0 35.3-28.7 64-64 64L64 512c-35.3 0-64-28.7-64-64L0 128C0 92.7 28.7 64 64 64l40 0 9.6 0C121 27.5 153.3 0 192 0s71 27.5 78.4 64l9.6 0zM64 112c-8.8 0-16 7.2-16 16l0 320c0 8.8 7.2 16 16 16l256 0c8.8 0 16-7.2 16-16l0-320c0-8.8-7.2-16-16-16l-16 0 0 24c0 13.3-10.7 24-24 24l-88 0-88 0c-13.3 0-24-10.7-24-24l0-24-16 0zm128-8a24 24 0 1 0 0-48 24 24 0 1 0 0 48z"/></svg>
+			  <h3 class="feature-title">Create Your Own Fictional Application.</h3>
+			  <p>Fill out a playful job application form tailored to your chosen role, complete with funny details like “special skills” and “unique qualifications.”</p>
+			</div>
+	
+			<div class="feature-box col-lg-4">
+				<svg class="svg-inline--fa fa-heart fa-w-18 icon fa-4x" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M16.1 260.2c-22.6 12.9-20.5 47.3 3.6 57.3L160 376l0 103.3c0 18.1 14.6 32.7 32.7 32.7c9.7 0 18.9-4.3 25.1-11.8l62-74.3 123.9 51.6c18.9 7.9 40.8-4.5 43.9-24.7l64-416c1.9-12.1-3.4-24.3-13.5-31.2s-23.3-7.5-34-1.4l-448 256zm52.1 25.5L409.7 90.6 190.1 336l1.2 1L68.2 285.7zM403.3 425.4L236.7 355.9 450.8 116.6 403.3 425.4z"/></svg>
+			  <h3 class="feature-title">Share & Download.</h3>
+			  <p>Once you're done crafting the perfect fictional application, share it with friends, download it as a keepsake, or post it on social media.</p>
+			</div>
+		  </div>
+		</div>
+	  </section>
+	</div>
+
+
+
+
+
+
+<!-- jobs -->
+<div class="diffSection" id="job-section">
+	<center><p style="font-size: 50px; padding-top: 100px; padding-bottom: 60px;">Hilarious Jobs Waiting for You!</p></center>
+	<div class="totalcard">
+		<div class="card">
+			<center><img src="images/banana.jpg"></center>
+			<center><div class="card-title">Professional Banana Peeler.
+			</div>
+			<div id="detail">
+				<p>Are you ready to go bananas? As a Professional Banana Peeler, you’ll be the Michelangelo of fruit, expertly peeling bananas with flair! Your mission: turn boring banana prep into a show-stopping spectacle. Get ready to impress at markets, food festivals, and even TikTok with your epic peeling skills!</p><br>
+    <p><strong>Qualifications:</strong><br> - Degree in Advanced Fruit Studies or a solid history of banana wrangling.</p><br> <p> - Certified in Peelology (seriously, we need proof!).</p><br>
+    <p><strong>Years of Experience:</strong><br> - MAt least 2 years as a fruit peeler (bonus points for banana-only gigs!).</p><br>
+    <p><strong>Skills:</strong> - Pro at various peeling techniques: The Classic Slip, The Tornado Peel, and more!</p><br><p> - Ability to peel while reciting the Kerala anthem (it's a challenge!).</p>
+				<div class="duty"></div>
+				<a href="" target="_blank"><button class="btn-card" onclick="goToApplicationPage()">APPLY</button></a>
+			</div>
+			</center>
+		</div>
+		<div class="card">
+			<center><img src="images/karikk.jpg"></center>
+			<center><div class="card-title">Chief Coconut Water Tester</div>
+			<div id="detail">
+				<p>Are you ready to dive into the refreshing world of coconut water? As the Chief Coconut Water Tester, you’ll be the ultimate connoisseur of nature’s hydration! Your job involves tasting every coconut water you can find, from the classic to the weird (yes, there are weird ones). You’ll rate them on flavor, chill factor, and overall tropical vibes, ensuring only the best make it to the market!</p><br>
+    <p><strong>Qualifications:</strong><br> - Must have a degree in Coconutology or extensive experience in tropical beverage consumption.</p><br> <p> - An Instagram account showcasing your coconut-tasting adventures is a must!</p><br>
+    <p><strong>Years of Experience:</strong><br> - At least 3 years in a beverage tasting role (coconut experience is a plus!)..</p><br>
+    <p><strong>Skills:</strong> - Expert palate: Can differentiate between a fresh coconut and a “last week’s” one blindfolded!</p><br><p> - Ability to judge coconut water on creativity (e.g., best use of sparkles)..</p>
+				<div class="duty"></div>
+				<a href="" target="_blank"><button class="btn-card" onclick="goToApplicationPage()">APPLY</button></a>
+			</div>
+			</center>
+		</div>
+		
+		<div class="card">
+			<center><img src="images/dream.jpg"></center>
+			<center><div class="card-title"> Full-time Daydreamer</div>
+			<div id="detail">
+				<p>Do you excel at staring into space? As a Full-time Daydreamer, your job is to turn daydreaming into an art form! You'll drift into wild scenarios during meetings and conjure up epic adventures that may or may not involve unicorns. Perfect for those who think reality could use a little more magic!</p><br>
+    <p><strong>Qualifications:</strong><br> - Must have a wildly imaginative mind and a knack for creative zoning out.</p><br> <p> - Certification in Advanced Daydreaming Techniques (self-taught preferred).</p><br>
+    <p><strong>Years of Experience:</strong><br> - At least 2 years of professional daydreaming.</p><br>
+    <p><strong>Skills:</strong> - Can craft elaborate daydreams with unexpected plot twists.</p><br><p> - Expert at maintaining a serious face while lost in thought.</p>
+				<div class="duty"></div>
+				<a href="" target="_blank"><button class="btn-card" onclick="goToApplicationPage()">APPLY</button></a>
+			</div>
+			</center>
+		</div>
+	</div>
+	<div class="viewmore">
+		<button class="head-button" onclick="goToJobsPage()">View More</button>
+	</div>
+	
+</div>
+
+  <!-- Reviews by Students -->
+<div id="review-section">
+
+<div id="makeitfull">
+	<a href="#review_section"><img src="images/icon/makeitfull.png"></a>
+</div>
+<div class="review">
+	<div class="h2Tag diffSection" id="review_section">
+		<center style="font-size: 40px; padding: 100px; padding-bottom: 40px; color: #2E3D49;">
+			<h1>What Our Users Say</h1>
+			<p><b>Join the fun!</b> Here’s what our community thinks about their wild job application experiences.</p> 
+		</center>
+	</div>
+	<div class="rev-container ">
+		<div class="rev-card">
+			<div class="identity">
+				<img src="images/person1.jpg"><p>Fathima</p>
+			</div>
+			<div class="rev-cont">
+				<p id="content">Applying for a job as a 'Professional Cloud Taster' was the most fun I've ever had!</p>
+				<div class="rating"><img src="images/icon/star.png"><img src="images/icon/star.png"><img src="images/icon/star.png"><img src="images/icon/star.png"><img src="images/icon/star.png"></div>
+
+			</div>
+		</div>
+		<div class="rev-card">
+			<div class="identity">
+				<img src="images/person2.jpg"><p>George Kutty</p>
+			</div>
+			<div class="rev-cont">
+				<p id="content">I never thought I'd get to be a 'Dinosaur Dance Instructor'! This platform is a blast!</p>
+				<div class="rating"><img src="images/icon/star.png"><img src="images/icon/star.png"><img src="images/icon/star.png"><img src="images/icon/star.png"><img src="images/icon/star.png"></div>
+			</div>
+		</div>
+		<div class="rev-card">
+			<div class="identity">
+				<img src="images/person3.jpg"><p>Ammu</p>
+			</div>
+			<div class="rev-cont">
+				<p id="content">Job thendal made my wildest job dreams come true. I love it!</p>
+				<div class="rating"><img src="images/icon/star.png"><img src="images/icon/star.png"><img src="images/icon/star.png"><img src="images/icon/star.png"><img src="images/icon/star.png"></div>
+			</div>
+		</div>
+		<div class="rev-card">
+			<div class="identity">
+				<img src="images/person4.jpg"><p>Appukuttan</p>
+			</div>
+			<div class="rev-cont">
+				<p id="content">Who knew applying for a 'Wacky Job' could be this entertaining? Highly recommend!</p>
+				<div class="rating"><img src="images/icon/star.png"><img src="images/icon/star.png"><img src="images/icon/star.png"><img src="images/icon/star.png"><img src="images/icon/star.png"></div>
+			</div>
+		</div>
+		<div class="rev-card">
+			<div class="identity">
+				<img src="images/person5.jpg"><p>Sara Mol</p>
+			</div>
+			<div class="rev-cont">
+				<p id="content">This community is full of laughs! I can't wait to share my 'Alien Ambassador' resume!</p>
+				<div class="rating"><img src="images/icon/star.png"><img src="images/icon/star.png"><img src="images/icon/star.png"><img src="images/icon/star.png"><img src="images/icon/star.png"></div>
+			</div>
+		</div>
+		<div class="rev-card">
+			<div class="identity">
+				<img src="images/person6.jpg"><p>Anna</p>
+			</div>
+			<div class="rev-cont">
+				<p id="content">Creating a resume for a 'Professional Mermaid' was a hilarious experience!</p>
+				<div class="rating"><img src="images/icon/star.png"><img src="images/icon/star.png"><img src="images/icon/star.png"><img src="images/icon/star.png"><img src="images/icon/star.png"></div>
+			</div>
+		</div>
+	</div>
+</div>
+
+</div>
+	
+<!-- FOOTER -->
+	<footer>
+		<div class="footer-container">
+			<div class="left-col">
+				<img src="panidotcom-logo.png" style="width: 200px;">
+				<div class="logo"></div>
+				<div class="social-media">
+					<a href="#"><img src="images/icon/fb2.png"></a>
+					<a href="#"><img src="images/icon/insta2.png"></a>
+					<a href="#"><img src="images/icon/tt2.png"></a>
+					<a href="#"><img src="images/icon/ytube2.png"></a>
+					<a href="https://www.linkedin.com/in/nehatk2004/"><img src="images/icon/linkedin2.png"></a>
+				</div><br><br>
+				<p class="rights-text">Copyright © 2024 Created By Neha TK, All Rights Reserved.</p>
+				<p>DISCLAIMER:These jobs are entirely fictional and have <br>no real-world implications, except for laughter!</p>
+				<a href="https://www.linkedin.com/in/nehatk2004/"><img src="images/icon/linkedin2.png" href="https://www.linkedin.com/in/nehatk2004/" width="22px"></a><p>&nbsp;Neha TK</p>
+			</div>
+			<div class="right-col">
+				<h1 style="color: #000">Our Newsletter</h1>
+				<div class="border"></div><br>
+				<p>Enter Your Email to get our News and updates.</p>
+				<form class="newsletter-form">
+					<input class="txtb" type="email" placeholder="Enter Your Email">
+					<input class="btn" type="submit" value="Submit">
+				</form>
+			</div>
+		</div>
+	</footer>
+
+</body>
+</html>

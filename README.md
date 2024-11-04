@@ -30,13 +30,21 @@ For Hardware:
 - *Not applicable* (Purely software-based)
 
 - 
-# Screenshots 
- 1. ![Homepage](Screenshot1.png)
-   *Homepage – Displays the list of fictional job categories and lets users explore.*
+# Screenshots
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+1. ![Working Image](Screenshot1.png)
+   *This is the main working image showing the core functionality of the application.*
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+2. ![Homepage](Screenshot2.png)
+   *Homepage – Displays the main interface with options to explore fictional job categories.*
+
+3. ![All Jobs Listed](Screenshot3.png)
+   *All Jobs Listed Page – Shows a comprehensive list of all available fictional job titles.*
+
+4. ![Resume Building Page](Screenshot4.png)
+   *Resume Building Page – The interface where users can fill out their information to create a resume.*
+
+5. ![Built Resume in PDF](Screenshot5.png)
+   *Built Resume in PDF Format – Preview of the generated resume that users can download.*
+
 

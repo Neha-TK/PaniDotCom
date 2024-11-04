@@ -31,7 +31,7 @@ For Hardware:
 
 - 
 # Screenshots 
- 1. ![Homepage](screenshots/homepage.png)
+ 1. ![Homepage](Screenshot1.png)
    *Homepage – Displays the list of fictional job categories and lets users explore.*
 
 ![Screenshot2](Add screenshot 2 here with proper name)

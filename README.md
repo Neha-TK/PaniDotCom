@@ -29,7 +29,7 @@ For Software:
 For Hardware:
 - *Not applicable* (Purely software-based)
 
-- 
+
 # Screenshots
 
 1. ![Working Image](Screenshot1.png)
@@ -46,5 +46,18 @@ For Hardware:
 
 5. ![Built Resume in PDF](Screenshot5.png)
    *Built Resume in PDF Format – Preview of the generated resume that users can download.*
+
+
+
+
+## Team Contributions
+- Neha TK: Full contributions
+---
+
+
+Made with ❤️ at TinkerHub Useless Projects 
+
+![Static Badge](https://img.shields.io/badge/TinkerHub-24?color=%23000000&link=https%3A%2F%2Fwww.tinkerhub.org%2F)
+![Static Badge](https://img.shields.io/badge/UselessProject--24-24?link=https%3A%2F%2Fwww.tinkerhub.org%2Fevents%2FQ2Q1TQKX6Q%2FUseless%2520Projects)
 
 

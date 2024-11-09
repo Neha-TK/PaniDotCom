@@ -30,10 +30,25 @@ For Hardware:
 - *Not applicable* (Purely software-based)
 
 
+### Implementation
+For Software:
+# Installation
+Clone the repository
+
+  ```bash
+git clone https://github.com/Neha-TK/PaniDotCom.git
+cd PaniDotCom
+```
+
+### Project Links:
+- **Published URL:** [PaniDotCom - Live Project](https://neha-tk.github.io/PaniDotCom/)
+- **GitHub Source Code:** [GitHub Repository - PaniDotCom](https://github.com/Neha-TK/PaniDotCom)
+
+
 # Screenshots
 
 1. ![Working Image](Screenshot1.png)
-   *This is the main working image showing the core functionality of the application.*
+   *This is the main working image.*
 
 2. ![Homepage](Screenshot2.png)
    *Homepage – Displays the main interface with options to explore fictional job categories.*
